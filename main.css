@@ -1,5 +1,21 @@
 nav{
     height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-left-logo{
+    display: flex;
+}
+
+.logo{
+    background-color: aqua;
+}
+.navbar-left{
+    background-color: red;
+}
+.navbar-right{
+    background-color: blueviolet;
 }
 main{
     background-color: yellow;
