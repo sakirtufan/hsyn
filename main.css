@@ -1,0 +1,21 @@
+nav{
+    height: 100px;
+}
+main{
+    background-color: yellow;
+    display: flex;
+}
+
+.main-left{
+    background-color: green;
+    width: 37.5%;
+}
+
+.main-left-img img{
+    min-width: 100%;
+}
+
+.main-right{
+    background-color:goldenrod;
+    width: 62.5%;
+}
