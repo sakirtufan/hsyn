@@ -2,6 +2,7 @@ nav{
     height: 100px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .navbar-left-logo{
@@ -22,16 +23,36 @@ main{
     display: flex;
 }
 
+
+
 .main-left{
     background-color: green;
     width: 37.5%;
 }
 
+
 .main-left-img img{
     min-width: 100%;
+    min-height: 100%;
 }
 
 .main-right{
     background-color:goldenrod;
     width: 62.5%;
+}
+
+@media only screen and (max-width: 1024px){
+    main{
+        flex-direction: column;
+    }
+
+    .main-left{
+        min-width: 100%;
+    }
+
+    .main-right{
+        min-width: 100%;
+    }
+
+   
 }
